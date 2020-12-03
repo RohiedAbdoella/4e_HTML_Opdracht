@@ -1,0 +1,100 @@
+.goldborder {
+    border: 5px double gold;
+    margin: 20px;
+    padding: 30px;
+    }
+
+.websitetitle {
+        margin: 0 auto;
+        width: 400px;
+        }
+
+body {
+    color:orange;
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    }
+
+.navlist li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        margin: 10px;
+        }
+
+h1 {
+    color: orange;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 40px;
+    }
+
+h2 {
+    color: orange;
+    font-family: Verdana, Geneva;
+    font-size: 25px;
+    }    
+
+ul {
+    list-style-type: circle;
+    font-size:20px;
+    }
+
+.leeftijd {
+    color: orange;
+    list-style-type: none;
+    font-size: 14px;
+    }
+
+.thanos {
+    border: 5px solid silver;
+    width: 150px; 
+    margin: 20px;
+    }
+
+p   {
+    font-size: 15px;
+    }
+
+form{
+    display: block;
+    width: 300px;
+    margin: 10px;
+    }
+
+@media (min-width: 1024px) {
+ 
+    body {
+        background-color: black;
+        }
+
+    h1 {
+        color:lightblue;
+        font-size: 25px;
+        }
+
+    h2 {
+        color: lightblue; 
+        }
+
+    .leeftijd {
+        color: white;
+        font-size: 10px;
+        line-height: 60px;
+        }
+
+    ul {
+        color: lightblue;
+        font-size: 15px;
+        line-height: 15px;
+        }
+
+    p   {
+        color: lightblue;
+        font-size: 12px;
+        line-height: 30px;
+        }
+   
+    }
+    
